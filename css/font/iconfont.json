@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "554517",
+      "name": "播放",
+      "font_class": "iconset0481",
+      "unicode": "e768",
+      "unicode_decimal": 59240
+    },
+    {
+      "icon_id": "13263955",
+      "name": "al-icon-cart",
+      "font_class": "al-icon-cart",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "18595468",
+      "name": "环保_负责人",
+      "font_class": "huanbao_fuzeren",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "18609309",
+      "name": "资源 76",
+      "font_class": "ziyuan76",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    }
+  ]
+}

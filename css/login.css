@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.center{
+    margin: 0 auto;
+    width: 1240px;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    width: 100%;
+    overflow: hidden;
+}
+.banner > .header{
+    display: flex;
+    justify-content: flex-start;
+}
+.banner > .header > h1{
+    color: #0098FF;
+    
+    padding: 15px 0 0 0;
+    font-size: 30px;
+    font-weight: 700;
+
+
+}
+.banner > .photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    background: url(../images/0.png) no-repeat;
+    background-position: -340px 0;
+    background-color: #EFFCFD;
+    position: relative;
+}
+.banner > .photo > .login{
+    position: absolute;
+    right: 150px;
+    top: 180px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px 20px 30px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgb(199, 196, 196);
+}
+.banner > .photo > .login > h2{
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: #515151;
+}
+.banner > .photo > .login > .log {
+  display: flex;
+  flex-direction: column;
+}
+.banner > .photo > .login > .log > form > .inp{
+    display: flex;
+    height: 40px;
+    width: 280px;
+    border: 1px solid rgb(228, 220, 220);
+    justify-items: center;
+    align-items: center;
+    margin: 25px 0;
+}
+.banner > .photo > .login > .log > form >  .inp > b{
+    font-weight: 400;
+    color: #8e8e8e;
+    border-right: 1px solid rgb(228, 220, 220);
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+.banner > .photo > .login > .log > form >  .inp > input{
+    outline: none;
+    border: 0;
+    text-indent: 10px;
+}
+.banner > .photo > .login > .log > form >  span{
+    font-weight: 300;
+    width: 200px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    /* display: none; */
+}
+.banner > .photo > .login > .log > form >  button{
+    display: flex;
+    height: 40px;
+    width: 280px;
+    background-color: #0098FF;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 10px 0;
+    color: #fff;
+    border: 0;
+}
+.banner > .photo > .login > .log > form >  .zhuce{
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    color: #0098FF;
+    font-size: 12px;
+    font-weight: 400;
+}
+.banner > .end{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-evenly;
+    margin-top: 30px;
+}
+.banner > .end > .top{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 70px;
+    box-sizing: border-box;
+}
+.banner > .end > .top > ul{
+    display: flex;
+    
+}
+.banner > .end > .top > ul > li{
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #8e8e8e;
+    font-size: 14px;
+    font-weight: 500;
+}
+.banner > .end > .top > ul > li:nth-child(1){
+    border: 0;
+}
+.banner > .end > .top > .z{
+    display: flex;
+}
+.banner > .end > .top > .z > span{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+.banner > .end > .top > .z > a{
+    padding: 0 8px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    background-color: #0098FF;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+.banner > .end > .top > .logo{
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner > .end > .top > .logo > a{
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.banner > .end > .bottom{
+    display: flex;
+    padding: 0 ;
+}
+.banner > .end > .bottom >p{
+    font-size: 12px;
+    padding: 0 85px;
+    margin-bottom: 30px;
+    color: #8e8e8e;
+}
